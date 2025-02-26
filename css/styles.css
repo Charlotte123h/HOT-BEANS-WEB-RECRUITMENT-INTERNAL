@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Our Team - Web Development Company</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Company Profile Section -->
+  <section id="company-profile">
+    <h1>About Us</h1>
+    <p>Welcome to [Company Name], a leading web development company dedicated to innovation and creativity. We believe in nurturing talent and providing opportunities for growth.</p>
+    <p>Our mission is to build cutting-edge web solutions while fostering a collaborative and inclusive environment.</p>
+  </section>
+
+  <!-- Trainee Profiles Section -->
+  <section id="trainee-profiles">
+    <h2>Meet Our Trainees</h2>
+    <div class="profile">
+      <img src="trainee1.jpg" alt="Trainee 1">
+      <h3>John Doe</h3>
+      <p>"Joining [Company Name] has been a transformative experience. I’ve learned so much and grown as a developer."</p>
+    </div>
+    <div class="profile">
+      <img src="trainee2.jpg" alt="Trainee 2">
+      <h3>Jane Smith</h3>
+      <p>"The supportive environment here has helped me build my skills and confidence."</p>
+    </div>
+  </section>
+
+  <!-- Job Specification Section -->
+  <section id="job-specification">
+    <h2>Job Opportunities</h2>
+    <h3>Junior Web Developer</h3>
+    <ul>
+      <li><strong>Skills Required:</strong> HTML, CSS, JavaScript, Git</li>
+      <li><strong>Qualifications:</strong> Degree in Computer Science or related field, or completed web development courses.</li>
+      <li><strong>Benefits:</strong> Competitive salary, mentorship, flexible hours.</li>
+    </ul>
+  </section>
+
+  <!-- Application Form Section -->
+  <section id="application-form">
+    <h2>Apply Now</h2>
+    <form id="job-application-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="resume">Upload Resume:</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <!-- Web Development Courses Section -->
+  <section id="web-courses">
+    <h2>Recommended Web Development Courses</h2>
+    <ul>
+      <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+      <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+      <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
